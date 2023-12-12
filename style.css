@@ -1,0 +1,140 @@
+*{
+  
+  color:white;
+  margin: 0;
+  font-family: arial;
+  padding:0;
+}
+body{
+  background-color: #712adb;
+}
+.nav{
+ 
+  display:flex;
+  background-color: #180830;
+  align-items: center;
+  height: 90px;
+  justify-content: space-between;
+}
+.icon{
+  
+  margin-left: 30px;
+  height: 40px;
+}
+.navtext{
+  display: flex;
+  color:white;
+  height: 30px;
+}
+.navtext p{
+  margin: 7px;
+}
+.head{
+  background-color: #37135e;
+  height: 500px;
+  background-color: ;
+  border: 1px solid white;
+  display: flex;
+}
+
+.headimg{
+  padding-top: 7px;
+  width:50%;
+  height: 100%;
+  
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width:50%;
+  font-size: 55px;
+  color:white;
+}
+.head_img{
+  padding: 20px;
+  height: 90%;
+  width:90%;
+}
+.main{
+  background-color: ;
+}
+.mainimgs{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 500px;
+}
+.maintext{
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+}
+.img1,.img2{
+  width:30%;
+  height: 300px;
+  margin: 7px;
+}
+.img1{
+  background-image: url("monkey2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.img2{
+  background-image: url("monkey3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.img3{
+  margin-left: 40px;
+  height: 260px;
+  width:30%;
+  display: flex;
+  background-image: url("monkey4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bottomtextmain{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #37135e;
+  height: 200px;
+  font-size: 50px;
+  font-style: italic;
+  color:white;
+  border:0.5px solid white;
+  font-weight: 300;
+}
+.bottomtextmain p{
+  margin: 10px;
+}
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: black;
+  height: 50px;
+}
+.foottext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37135e;
+  height: 200px;
+  font-size: 50px;
+  font-style: italic;
+  color:white;
+  border:0.5px solid white;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
