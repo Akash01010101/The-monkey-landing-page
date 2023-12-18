@@ -1,3 +1,3 @@
 Html css project
-Monke page using html css
-Monke win 
+Monke landing page using html css
+Return to monke
