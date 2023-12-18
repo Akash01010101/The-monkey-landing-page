@@ -38,7 +38,7 @@ body {
 .head {
   background-color: #37135e;
   height: 500px;
-  background-color: ;
+ 
   border: 1px solid white;
   display: flex;
 }
@@ -68,10 +68,7 @@ body {
   width: 90%;
 }
 
-.main {
-  background-color: ;
 
-}
 
 .mainimgs {
   justify-content: center;
