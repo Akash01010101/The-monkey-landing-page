@@ -11,9 +11,9 @@
     <div class="nav"> 
       <img src="monkey.png" class="icon">
       <div class="navtext">
-        <p>Home</p>
-        <p>About us</p>
-        <p> Contact</p>
+        <div class="nav-text" id="home"><p>Home</p></div>
+        <div class="nav-text" id="about"><p>About us</p></div>
+        <div class="nav-text"  id="contact"><p> Contact</p></div>
       </div>
     </div>
   </header>
@@ -51,14 +51,18 @@
         "Why worry about finding the meaning of life when you can spend your days perfecting the art of banana peeling?"
       </p>
     </div>
+    
   </main>
       <footer>
         <div class="foottext">
           <p>"Reject Humanity Return to Monke"</p>
         </div>
-        <div class="foot">
-          <p> Copyright &copy The monke Invasion </p>
+        <div class="changebtn"><button id="theme">Dark Theme</button> <button class="reset" id="reset">Reset</button></div>
+        
+        <div class="foot" id="foot">
+          <p id="foot-text" > Copyright &copy The monke Invasion </p>
         </div>
       </footer>
+      <script src="script.js"></script>
 </body>
 </html>

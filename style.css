@@ -9,9 +9,13 @@
 body {
   background-image: linear-gradient(to right, #c934eb 10%, #eb3480 60%);
 }
-
+#home,#about,#contact{
+  height: 100%;
+}
+#home:hover,#about:hover,#contact:hover{
+ border: 2px solid white;
+}
 .nav {
-
   display: flex;
   background-color: #180830;
   align-items: center;
@@ -20,7 +24,6 @@ body {
 }
 
 .icon {
-
   margin-left: 30px;
   height: 40px;
 }
@@ -158,32 +161,59 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.changebtn{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#theme{
+ height: 50px;
+ width: 150px;
+ background-color: black;
+ color: white;
+ border: none;
+}
+.reset{
+  height: 50px;
+  width: 150px;
+  background-color: gray;
+  color: black;
+  display: none;
+  border: none;
+}
 
-@media (max-width: 767px) {
+
+@media (max-width: 900px) {
   .head {
-    height: 350px;
+    height:30vh;
   }
 
   .nav {
-    height: 45px;
+    height: 10vh;
   }
-
+  #home,#about,#contact{
+    height: 100%;
+  }
+  #home:hover,#about:hover,#contact:hover{
+   border: 2px solid white;
+  }
   .icon {
-    height: 25px;
+    height:60%;
   }
 
   .foottext {
     font-size: 25px;
   }
-
+  
   .bottomtextmain {
     font-size: 25px;
   }
 
   .headimg {
-    width: 70vw;
-    height: 80%;
-    margin-top: 8%;
+    width: 50vw;
+    height: 27vh;
+    margin-top: 0%;
   }
 
   .text {
@@ -195,14 +225,13 @@ body {
   }
 
   .mainimgs {
-    height: 230px;
+    height: 22vh;
 
   }
 
   .img1,
   .img2,
   .img3 {
-
-    height: 20vh;
+    height: 80%;
   }
 }
